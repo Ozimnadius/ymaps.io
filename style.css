@@ -1,0 +1,84 @@
+html {
+  font-family: 'Open Sans', sans-serif;
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+}
+
+.map {
+  width: 100%;
+  height: 100%;
+}
+
+.map__hint {
+  font-weight: 600 !important;
+  font-size: 18px !important;
+}
+
+.map__link {
+  color: cornflowerblue;
+}
+
+.map__imgs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-left: -5px;
+  margin-right: -5px;
+}
+
+.map__img {
+  width: calc(50% - 10px);
+  margin-left: 5px;
+  margin-right: 5px;
+  color: #000;
+  text-decoration: none;
+  text-align: center;
+}
+
+.map__img-img {
+  max-width: 100%;
+}
+
+.map__table {
+  width: 100%;
+  max-width: 100%;
+  margin-bottom: 20px;
+}
+
+.map__table tr:nth-child(odd) td {
+  background: lightgray;
+}
+
+.map__table td {
+  padding: 2px 10px;
+  background: #f6f6f6;
+}
+
+.map__table td:nth-child(1) {
+  width: 40%;
+}
+
+.map__table td:nth-child(2) {
+  width: 60%;
+}
+
+.map__link2 {
+  color: cornflowerblue;
+  font-size: 18px;
+  font-weight: 600;
+  text-align: center;
+  display: block;
+}
+
+.map .ymaps-2-1-73-balloon__content > ymaps {
+  overflow-x: hidden !important;
+}
+
+/*# sourceMappingURL=style.css.map */
