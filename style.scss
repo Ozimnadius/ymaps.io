@@ -13,13 +13,13 @@ body {
   width: 100%;
   height: 100%;
 
-  &__hint {
-    font-weight: 600 !important;
-    font-size: 18px !important;
-  }
-
   &__link {
     color: cornflowerblue;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    display: block;
+    text-align: center;
   }
 
   &__imgs {

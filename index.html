@@ -10,11 +10,13 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
+<form action="ajax.php" method="post" class="map__filter">
+    <button type="button" class="map__filter-submit">Фильтр</button>
+</form>
 <div class="map" id="map"></div>
 
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+<script src="jq.js"></script>
 <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
 <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
 <script src="main.js"></script>
