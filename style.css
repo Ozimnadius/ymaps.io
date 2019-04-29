@@ -81,4 +81,11 @@ body {
   overflow-x: hidden !important;
 }
 
+.filter__li {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1;
+  list-style: none;
+}
+
 /*# sourceMappingURL=style.css.map */
